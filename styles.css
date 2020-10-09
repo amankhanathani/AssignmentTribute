@@ -1,0 +1,68 @@
+
+
+/* global */
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    color:#221a00;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Comfortaa', cursive; */
+    font-size: 15px;
+    line-height: 1.5;
+}
+img{
+    width: 300px;
+
+}
+a{
+    color: yellow;
+}
+a:hover{
+    text-decoration: none;
+}
+h1{
+    font-size: 100px;
+    line-height: 1;
+}
+h2{
+    font-size: 45px;
+}
+h1,h2{
+    font-family: 'Caveat', cursive;
+    /* font-family: 'Comfortaa', cursive; */
+    font-weight: 400;
+    margin: 0;
+}
+.warp{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+/* profile */
+header{
+    background-color: #c28b15;
+    /* overflow: hidden; */
+    
+}
+/* project */
+.projects{
+    background-color:rgb(232, 243, 218);
+}
+
+.projectitem{
+    overflow: hidden;
+    border-bottom: 2px dashed rgb(10, 12, 114);
+    padding: 25px 0;
+}
+.projectitem img{
+    float: middle;
+    margin: 20px;
+}
+.projectitem h3{
+    margin-top: 0;
+}
+
