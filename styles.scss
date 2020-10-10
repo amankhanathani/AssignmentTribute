@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+$blue: #186CD2;
+*{
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+font-family: 'Poppins', sans-serif;
+max-width: 100%;
+}
+::-webkit-scrollbar
+{
+    background: white;
+    width: 15px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color:rgb(29, 29, 29);
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background-color: $blue;
+}
+
+
+
+header{
+    background-color: $blue;
+    color: white;
+    min-height: 80vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    text-align: center;
+   
+    
+
+    .warp{
+        width: 800px;
+        margin: 0 auto;
+        padding: 60px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+       h1 
+       {
+           font-size: 3vw;
+           font-weight: 900;
+           
+       }
+       h2
+       {
+        font-size: 1.8vw;
+        margin-bottom: 3%;
+        font-weight: 600;
+        color: #000000;
+        height: 1em;
+       }
+       .img
+       {
+         
+           img 
+           
+           {
+            border-radius: 100%;
+            width: 250px;
+            height: 250px;
+            border: 5px solid black;
+           }
+         
+       }
+       p
+       {
+           font-size: 1vw;
+       }
+        
+    }
+    
+}
+body
+{
+    background-color: rgb(252, 250, 250);
+}
+.projects
+{
+    
+    .warp
+    {
+       margin-right: 7%;
+       margin-left: 7%;
+       margin-top: 5%;
+
+       h2
+       {
+           margin-bottom: 30px;
+       }
+       p
+       {
+           margin: 2%;
+           margin-left: 0;
+           font-weight: 500;
+           font-size: 1.2em;
+       }
+       img 
+       {
+           width: 400px;
+           height: 400px;
+           margin-top: 10px;
+           margin-bottom: 10px; 
+
+           border-radius: 50px;
+           background: #fcfcfc;
+           box-shadow:  5px 5px 10px #d6d6d6, 
+                        -5px -5px 10px #ffffff;
+       }
+       .img 
+       {
+          margin-left: 7%;
+          margin-right: 7%;
+           width: 86%;
+           display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+           flex-wrap: wrap;
+
+       }
+    }
+}
+@media only screen and (max-width: 600px) {
+    header
+    {
+        .warp
+        {
+            h1
+            {
+                font-size: 2em;
+            }
+            h2
+            {
+                font-size: 1.3em;
+            }
+            p
+            {
+                font-size: 1em;
+            }
+        }
+    }
+    }
